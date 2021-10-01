@@ -1,0 +1,254 @@
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(180deg,#061849,#094234,#061849)
+}
+
+a.nav_bar{
+    color: white;
+    font-size: 140%;
+    text-decoration: none;
+    margin: 10px;
+    
+}
+img.nav_bar {
+    align-self: flex-start;
+    margin: 10px
+}
+nav{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    margin:0;
+}
+a:hover:not(.nav_bar, .codeshashtra){
+    color: royalblue
+}
+a.nav_bar:hover{
+    color: cyan;
+}
+a.codeshashtra:hover{
+    color:orange;
+}
+
+.fuck {
+    align-self: center;
+    justify-self: flex-start;
+    margin-left:0;
+    padding-left: 0%;
+    width: 30%; 
+    flex-direction:row; 
+    justify-content:flex-start; 
+    display: flex;;
+}
+
+.fuckmemore {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+div.codeshashtra{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-self: center;
+}
+.fuckyou{
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-self: flex-start;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left:0;
+    padding-left: 0%;
+    height: 500px;
+    float: left;
+}
+a.codeshashtra{
+    font-size: 140%;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    width: 100%;
+    font-family: 'bebas nue';
+    font-size: 40px;
+}
+
+img:not(.nav_bar,.other_events){
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+img:hover:not(.nav_bar,.other_events,.logos){
+    box-shadow: 10px 10px 10px 1px rgba(228, 75, 151, 0.8);
+}
+img.other_events{
+    border-radius: 12px;
+}
+div.notcodeshashtra{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    /* justify-self: flex-start; */
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    /* float: right; */
+    text-align: center;
+    font-size: 27px;
+    font-family: 'bebas nue';
+    margin-right: 0;
+    
+}
+div.vertical_line{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+}
+hr.top {
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 50px;
+}
+hr.top:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 50px;
+}
+p.other_events{
+    color: whitesmoke;
+    font-family: 'bebas nue';
+    font-size: 45px;
+    text-align: center;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+}
+div.gitup, div.csiweekend, div.pitchplease{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+a.gitup, a.csiweekend, a.pitchplease{
+    font-size: 30px;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    width: 100%;
+    font-family: 'bebas nue';
+}
+
+.flex-container-2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    width: 100%;
+}
+div.capitalize, div.stimulate, div.inspire{
+    font-size: 22px;
+    color:white;
+    text-align: left;
+    width: 30%;
+    font-family: 'bebas nue';
+    padding: 10px;
+    margin-left: 20px;
+}
+p.capitalize, p.stimulate, p.inspire{
+    color: rebeccapurple;
+    font-size: 40px;
+}
+.flex-container-3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    width: 100%;
+}
+div.about, div.add_con, div.followus{
+    font-size: 22px;
+    color:white;
+    text-align: left;
+    width: 30%;
+    font-family: 'bebas nue';
+    padding: 10px;
+    margin-left: 20px;
+}
+.logos{
+    display: flex;
+    flex-direction: row;
+}
+img.other_events{
+    width: 75px;
+}
+p.foot{
+    font-size: 40px;
+    font-family: 'bebas nue';
+    color: orange;
+}
+a.add_con{
+    text-decoration: none;
+    color: orange;
+}
+a.add_con:hover{
+    color:rgba(228, 75, 151, 0.8);
+}
+p.notcodeshastra{
+    color: whitesmoke;
+}
+img.logos:not(.yt){
+    width: 50px;
+    height: 50px;
+    margin: 25px;
+}
+img.yt{
+    /* width: 50px; */
+    height: 50px;
+    margin: 25px;
+}
+img.logos:hover{
+    box-shadow: 3px 3px 3px 1px rgba(228, 75, 151, 0.6);
+}
+/* .transp{
+    display: inline-block;
+    height: 80vh;
+    width: 100vw;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, red,blue)  ;
+    background-attachment: fixed;
+} 
+@media only screen and (max-width: 768px) {
+    .fuckyou {
+      width: 100%;
+    }
+    .notcodeshastra {
+        width: 100%;
+    }
+} 
+*/
